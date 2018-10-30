@@ -27,5 +27,5 @@ public:
   */
   void msd(std::vector<std::reference_wrapper<std::vector<unsigned int>>> &lists);
 
-  void mysort(std::vector<unsigned int> input);
+  static void mySort(std::vector<unsigned int> &list);
 };
